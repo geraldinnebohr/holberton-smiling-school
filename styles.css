@@ -1,3 +1,12 @@
+@font-face {
+  font-family: sans-pro;
+  src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+body {
+  font-family: sans-pro;
+}
+
 header {
   background-image: url(./images/pic_1.jpg);
   background-position: 40% 0%;
@@ -23,5 +32,14 @@ header {
   flex-direction: column;
   position: relative;
   top: 40%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.btn-primary {
+  background-color: #c271ff;
+  border: transparent;
 }
 
